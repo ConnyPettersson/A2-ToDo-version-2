@@ -41,8 +41,9 @@ button.addEventListener("click", function () {
   item.appendChild(itemLabel);
 
   const trashcan = document.createElement("span");
-  trashcan.innerHTML = "&#x1F5D1";
-  trashcan.setAttribute("class", "trashcan");
+  trashcan.innerHTML = "delete";
+  trashcan.setAttribute("class", "trashcan material-symbols-outlined");
+
   item.appendChild(trashcan);
 
 
